@@ -315,7 +315,7 @@ header .container {
 footer {
   margin-top: 10rem;
   background-color: var(--fc-darkGray);
-  height: 82vh;
+  max-height: 675px;
 }
 footer .footerGrid {
   display: grid;
@@ -339,6 +339,7 @@ footer .footerInfo {
 footer form {
   display: flex;
   flex-direction: column;
+  max-height: 275px;
 }
 footer form input,
 footer form textarea {
@@ -365,7 +366,7 @@ footer form textarea {
   margin-top: 1.5rem;
 }
 footer form button {
-  margin-top: 5rem;
+  margin-top: 1rem;
   align-self: end;
   background-color: var(--fc-darkGray);
   color: var(--fc-lightGray);
@@ -387,16 +388,19 @@ footer form #emailError {
 footer nav {
   position: relative;
   grid-column: 1/-1;
-  border-top: 1px solid var(--fc-lightGray);
 }
 footer nav ul {
-  margin-top: 3rem;
+  margin-top: 0.5rem;
 }
 footer nav ul li:last-of-type {
   padding-right: 0;
 }
 footer nav a:hover {
   color: var(--fc-green);
+}
+footer nav .wrapper {
+  border-top: 1px solid var(--fc-lightGray);
+  margin-top: 7rem;
 }
 footer img {
   position: relative;
