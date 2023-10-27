@@ -482,6 +482,14 @@ footer ul {
     margin-top: 3rem;
   }
 }
+@media (max-width: 1033px) {
+  footer {
+    max-height: 1000px;
+  }
+  footer .footerInfo {
+    text-align: center;
+  }
+}
 @media (max-width: 886px) {
   header .headerGrid h1 {
     line-height: 80px;
@@ -590,6 +598,9 @@ footer ul {
   }
   footer {
     margin-top: 3rem;
+  }
+  footer nav .wrapper {
+    margin-top: 11rem;
   }
   footer img {
     top: -460px;
