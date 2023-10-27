@@ -260,7 +260,6 @@ header .container {
   row-gap: 4rem;
   border-top: 1px solid var(--fc-lightGray);
   padding-top: 5rem;
-  margin-top: 1rem;
 }
 .main .experienceImage {
   position: absolute;
