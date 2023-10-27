@@ -268,7 +268,7 @@ header .container {
 }
 
 .projects {
-  margin-top: 7rem;
+  margin-top: 8rem;
 }
 .projects .projectHeader {
   display: flex;
@@ -315,7 +315,7 @@ header .container {
 footer {
   margin-top: 10rem;
   background-color: var(--fc-darkGray);
-  height: 80vh;
+  height: 85vh;
 }
 footer .footerGrid {
   display: grid;
