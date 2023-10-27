@@ -315,7 +315,7 @@ header .container {
 footer {
   margin-top: 10rem;
   background-color: var(--fc-darkGray);
-  height: 85vh;
+  height: 82vh;
 }
 footer .footerGrid {
   display: grid;
