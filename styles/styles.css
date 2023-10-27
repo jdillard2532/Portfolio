@@ -174,13 +174,16 @@ nav a:hover {
   color: var(--fc-green);
 }
 
+header {
+  margin-top: -81px;
+}
 header .container {
   padding: 0 2rem;
 }
 
 .headerGrid {
   position: relative;
-  top: -5.1rem;
+  top: 2px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   align-items: start;
@@ -257,7 +260,7 @@ header .container {
   row-gap: 4rem;
   border-top: 1px solid var(--fc-lightGray);
   padding-top: 5rem;
-  margin-top: -5rem;
+  margin-top: 1rem;
 }
 .main .experienceImage {
   position: absolute;
@@ -476,17 +479,20 @@ footer ul {
   }
 }
 @media (max-width: 886px) {
-  .headerGrid h1 {
+  header .headerGrid h1 {
     line-height: 80px;
   }
-  .headerGrid .break {
+  header .headerGrid .break {
     display: block;
   }
-  .headerGrid h3 {
+  header .headerGrid h3 {
     margin-top: 5rem;
   }
-  .headerGrid p {
+  header .headerGrid p {
     padding-top: 5rem;
+  }
+  header .headerGrid .profilePic {
+    left: 20px;
   }
 }
 @media (max-width: 768px) {
