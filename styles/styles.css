@@ -259,7 +259,7 @@ header .container {
   gap: 1rem;
   row-gap: 4rem;
   border-top: 1px solid var(--fc-lightGray);
-  padding-top: 5rem;
+  padding-top: 3rem;
 }
 .main .experienceImage {
   position: absolute;
@@ -315,6 +315,7 @@ header .container {
 footer {
   margin-top: 10rem;
   background-color: var(--fc-darkGray);
+  height: 80vh;
 }
 footer .footerGrid {
   display: grid;
