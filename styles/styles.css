@@ -143,6 +143,13 @@ body {
   padding: 0 2rem;
 }
 
+header section,
+nav,
+main,
+footer {
+  overflow: hidden;
+}
+
 nav {
   position: relative;
   z-index: 999;
@@ -503,6 +510,7 @@ footer ul {
 @media (max-width: 767px) {
   h1 {
     font-size: 40px;
+    letter-spacing: 0;
   }
   h2 {
     font-size: 32px;
@@ -513,6 +521,9 @@ footer ul {
   nav ul li:first-of-type {
     width: 100%;
     text-align: center;
+  }
+  footer form {
+    padding-top: 2rem;
   }
   header .headerGrid {
     grid-template-columns: 1fr;
@@ -584,6 +595,7 @@ footer ul {
 @media (max-width: 767px) {
   header .headerGrid {
     grid-template-columns: repeat(3, 1fr);
+    max-height: 800px;
   }
   header .headerGrid .profilePic {
     max-width: 200px;
@@ -596,7 +608,7 @@ footer ul {
   header .headerGrid .smallCircle {
     grid-column: 3;
     top: 0px;
-    left: 140px;
+    left: 80px;
   }
   header .headerGrid .headerRings {
     top: -260px;
@@ -606,7 +618,7 @@ footer ul {
     margin-top: -13rem;
   }
   main .main .container .experienceList {
-    padding-top: 8rem;
+    margin-top: 13rem;
   }
   footer form .underlineG {
     margin-top: 1rem;
@@ -617,8 +629,18 @@ footer ul {
   }
 }
 @media (max-width: 600px) {
+  header .container {
+    max-height: 760px;
+  }
   .smallCircle {
     top: 0px;
     left: 90px;
+  }
+  main .main .container {
+    margin-top: -13rem;
+  }
+  main .main .container .experienceList {
+    padding-top: 2rem;
+    margin-top: 15rem;
   }
 }/*# sourceMappingURL=styles.css.map */
